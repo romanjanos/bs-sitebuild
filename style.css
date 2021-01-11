@@ -1,7 +1,7 @@
 @font-face {
     font-family: myFont;
     src: url(fonts/Mulish-Regular.ttf);
-  }
+}
 
 @font-face {
     font-family: btnFont;
@@ -14,7 +14,7 @@
 }
 
 .first-container {
-    background-image: url('img/bg-pattern.png'), linear-gradient(to right, rgba(216,37,50), rgba(125,67,151));
+    background-image: url('img/bg-pattern.png'), linear-gradient(to right, rgba(216, 37, 50), rgba(125, 67, 151));
 }
 
 .second-container {
@@ -22,7 +22,7 @@
 }
 
 .fourth-container {
-    background-image: url('img/bg-cta.jpg');   
+    background-image: url('img/bg-cta.jpg');
     opacity: 0.8;
 }
 
@@ -30,12 +30,14 @@
     background-color: #fdc844;
 }
 
-.nav-text {
-    color:#fdcc52;
+.navbar-light .navbar-nav .nav-text,
+.navbar-light .nav-text {
+    color: #fdcc52;
     font-family: navFont, Arial, Helvetica, sans-serif;
 }
 
-.nav-text:hover {
+.navbar-light .navbar-nav .nav-text:hover,
+.navbar-light .nav-text:hover {
     color: #fff;
 }
 
@@ -54,12 +56,12 @@
     font-size: 3.5rem;
 }
 
-.embed-title{
+.embed-title {
     font-family: myFont, Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
 }
 
-.embed-text{
+.embed-text {
     font-family: myFont, Arial, Helvetica, sans-serif;
 }
 
@@ -75,7 +77,7 @@
     transition: ease-in 300ms;
 }
 
-.footer-text{
+.footer-text {
     font-family: myFont, Arial, Helvetica, sans-serif;
     color: #fff;
 }
