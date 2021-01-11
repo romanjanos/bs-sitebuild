@@ -1,0 +1,103 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Mulish-Regular.ttf);
+  }
+
+@font-face {
+    font-family: btnFont;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: navFont;
+    src: url(fonts/Catamaran-Regular.ttf);
+}
+
+.first-container {
+    background-image: url('img/bg-pattern.png'), linear-gradient(to right, rgba(216,37,50), rgba(125,67,151));
+}
+
+.second-container {
+    background-color: #fdc844;
+}
+
+.fourth-container {
+    background-image: url('img/bg-cta.jpg');   
+    opacity: 0.8;
+}
+
+.fifth-container {
+    background-color: #fdc844;
+}
+
+.nav-text {
+    color:#fdcc52;
+    font-family: navFont, Arial, Helvetica, sans-serif;
+}
+
+.nav-text:hover {
+    color: #fff;
+}
+
+.first-text {
+    font-family: myFont, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.second-text {
+    font-family: navFont, Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+}
+
+.fourth-text {
+    font-family: myFont, Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+}
+
+.embed-title{
+    font-family: myFont, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.embed-text{
+    font-family: myFont, Arial, Helvetica, sans-serif;
+}
+
+.btn-start {
+    color: #fff;
+    border: white 1px solid;
+    border-radius: 50px;
+    font-family: btnFont, Arial, Helvetica, sans-serif;
+}
+
+.btn-start:hover {
+    background-color: #fdcc52;
+    transition: ease-in 300ms;
+}
+
+.footer-text{
+    font-family: myFont, Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+.footer-link:hover {
+    color: #fdcc52;
+}
+
+.emoji {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.doubleMobilImg {
+    background-image: url("img/demo-screen-1.jpg"), url("img/phone.png");
+    background-size: 90%, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    max-height: 100%;
+}
