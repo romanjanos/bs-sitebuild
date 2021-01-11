@@ -96,7 +96,7 @@
 
 .doubleMobilImg {
     background-image: url("img/demo-screen-1.jpg"), url("img/phone.png");
-    background-size: 90%, cover;
+    background-size: auto 77%, auto 100%;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
     max-height: 100%;
